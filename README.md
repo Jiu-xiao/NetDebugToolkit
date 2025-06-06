@@ -52,6 +52,25 @@
   - 在 Windows 上：
     直接运行 `NetDebugClient.exe`。
 
+- 设备查找：
+  - 此处为设备名称的过滤器，当设备名称中包含此字符串时，会自动连接到该设备。
+  - ![client_1](images/client_1.png)
+
+- Linux 上位机：
+  - 点击`Restart`可以重启上位机
+  - 上位机上的硬件串口配置不可以修改
+  - Terminal窗口会转发上位机的一个bash shell，可以进行交互
+  - ![client_2](images/client_2.png)
+
+- 硬件串口1/2：
+  - 点击配置可以设置硬件串口的波特率，数据位，停止位，奇偶校验位
+  - 硬件串口无法Restart
+  - ![client_3](images/client_3.png)
+
+- 修改设备名称：
+  - 连接后点击`修改名称`可以修改ESP32-C3设备名称，用于设备查找
+  - ![client_4](images/client_4.png)
+
 ### 3. 配置和管理 WiFi
 
 - **NetDebugLink** 模块支持通过 BLUFI 协议进行远程 WiFi 配置。
