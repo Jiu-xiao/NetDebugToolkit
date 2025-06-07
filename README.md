@@ -18,6 +18,14 @@
 
 ---
 
+## 性能测试
+
+在命令行中进行循环文本打印来测试通信性能，通信速率完全满足设计要求。
+
+![network](images/network.png)
+
+---
+
 ## 🚀 使用方法
 
 ### 1. 连接与调试 ESP32 设备
@@ -28,6 +36,7 @@
   ```bash
   sudo systemctl start netdebughost
   ```
+
 - 查看服务状态：
 
   ```bash
@@ -45,6 +54,7 @@
     chmod +x NetDebugClient-x86_64.AppImage
     ./NetDebugClient-x86_64.AppImage
     ```
+
   - 在 Windows 上：
     直接运行 `NetDebugClient.exe`。
 - 设备查找：
